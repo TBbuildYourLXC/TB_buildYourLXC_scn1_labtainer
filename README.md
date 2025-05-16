@@ -1,13 +1,27 @@
-# Pour telecharger le labo et lancer le labo
+# Pour télécharger et lancer le labo
 
-Dans le dossier /home/student/labtainer/labtainer-student executer la commande `imodule https://github.com/Istomine/TB_buildYourLXC_scn1_labtainer/raw/refs/heads/main/imodule.tar`
+Dans le dossier `/home/student/labtainer/labtainer-student`, exécuter la commande :
 
-Une fois le module telecharger, il suffie de le lancer avec la commande `labtainer -r scn1`
+```bash
+imodule https://github.com/Istomine/TB_buildYourLXC_scn1_labtainer/raw/refs/heads/main/imodule.tar
+```
 
-# Pour maintenir le labo
+Une fois le module téléchargé, il suffit de le lancer avec la commande :
 
-1. Telecharger l'archive et l'extraire
-2. On obtient une arborescence classique a un labo Labtainer. A savoir la presence des dossiers (config,dockerfiles,docs,instr_config,scn1)
-3. Utiliser le pdf "labdesigner.pdf" pour tout information sur comment cree un laboratoire Labtainer
-4. Une fois les modifications apporte push un document "imodule.tar" sur github
-5. S'il y a modification de l'image Docker alors ne pas oublier de la publier sur Docker hub
+```bash
+labtainer -r scn1
+```
+
+#Pour maintenir le labo
+
+1. Télécharger l'archive et l'extraire.
+
+2. On obtient une arborescence classique d’un labo Labtainer, à savoir la présence des dossiers suivants : config, dockerfiles, docs, instr_config, scn1.
+
+3. Utiliser le PDF labdesigner.pdf pour toute information sur la création d’un laboratoire Labtainer.
+
+4. Une fois les modifications apportées, pousser un document imodule.tar sur GitHub.
+
+5. S’il y a une modification de l’image Docker, ne pas oublier de la publier sur Docker Hub.
+
+Pour toute information complémentaire, se référer au PDF labdesigner.pdf.
