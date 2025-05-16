@@ -1,3 +1,5 @@
+L'archive imodule.tar contient tous les fichiers nécessaires à la configuration, au maintien et à l’auto-correction du scénario 1 dans Labtainer.
+
 # Pour télécharger et lancer le labo
 
 Dans le dossier `/home/student/labtainer/labtainer-student`, exécuter la commande :
