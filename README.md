@@ -5,9 +5,8 @@ L'archive imodule.tar contient tous les fichiers nécessaires à la configuratio
 Dans le dossier `/home/student/labtainer/labtainer-student`, exécuter la commande :
 
 ```bash
-imodule https://github.com/Istomine/TB_buildYourLXC_scn1_labtainer/raw/refs/heads/main/imodule.tar
+imodule https://github.com/TBbuildYourLXC/TB_buildYourLXC_scn1_labtainer/raw/refs/heads/main/imodule.tar
 ```
-
 Une fois le module téléchargé, il suffit de le lancer avec la commande :
 
 ```bash
